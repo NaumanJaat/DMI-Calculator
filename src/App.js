@@ -4,6 +4,7 @@ import "./styles.css";
 
 const App = () => {
   return (
+    
     <div className="app">
       <Calculator />
     </div>

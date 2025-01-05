@@ -52,9 +52,9 @@ const Calculator = () => {
       {result && (
         <div className="results">
           <h2>Results:</h2>
-          <p>Fat (Kg): {result.fatKg}</p>
-          <p>Fat-Corrected Milk (FCM): {result.fcm}</p>
-          <p>Dry Matter Intake (DMI): {result.dmi}</p>
+          <p>Fat (F): {result.fatKg}Kg</p>
+          <p>Fat-Corrected Milk (FCM): {result.fcm}Kg</p>
+          <p>Dry Matter Intake (DMI): {result.dmi}Kg</p>
         </div>
       )}
     </div>
